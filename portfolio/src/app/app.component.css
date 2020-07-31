@@ -31,35 +31,6 @@ h3 {
   filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.3));
 }
 
-.testbtn {
-  padding: 0.7em 1.4em;
-  border-radius: 0.15em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  text-decoration: none;
-  width: 100px;
-  font-weight: 400;
-  color: #FFFFFF;
-  background-color: #3d3d3d;
-  -webkit-box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.2);
-          box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.2);
-  text-align: center;
-}
-
-.testbtn:hover {
-  background-color: #292929;
-}
-
-.testbuttons {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
 .actions {
   margin-top: 20px;
   display: -webkit-box;
@@ -91,6 +62,23 @@ h3 {
   text-align: center;
 }
 
+.actions button {
+  background: none;
+  border: none;
+  line-height: 2rem;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.actions button:focus {
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  color: #0f0f0f;
+  border: none;
+  outline: none;
+}
+
 .navbtn {
   -webkit-transition: all 340ms;
   transition: all 340ms;
@@ -103,8 +91,18 @@ h3 {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
+.navbtn a {
+  color: white;
+}
+
+.navbtn a:hover {
+  text-decoration: none;
+}
+
 .navbtn:hover {
   color: #0f0f0f;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   text-decoration: none;
   text-shadow: 0px 1px 2px #969696;
 }

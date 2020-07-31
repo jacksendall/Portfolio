@@ -8,20 +8,20 @@
                     <i class="fas fa-code"></i>
                     Get in touch
                 </a>
-                <form action="" method="post">
+                <form action="http://localhost/backend.php" method="post">
                     <ul>
-                        <li><input type="name" name="mail" placeholder="Your Name"></li>
-                        <li><input type="text" name="" placeholder="Subject"></li>
-                        <li><input type="email" name="" placeholder="Email address"></li>
+                        <li><input type="name" name="name" placeholder="Your Name"></li>
+                        <li><input type="text" name="subject" placeholder="Subject"></li>
+                        <li><input type="email" name="mail" placeholder="Email address"></li>
                         <li><textarea name="message" placeholder="Message" id="msgbox"></textarea>
                         </li>
                     </ul>
-                    <button type="submit" name="submit">Send</button>
+                    <button type="submit" name="submit-message">Send</button>
                 </form>
                 
             </li>
             
-        </ul>
+        </ul> 
     </div>
     
 </div>
@@ -52,7 +52,7 @@
                         <li><a class="navbtn portfolio" href="#portfolio">Portfolio</a></li>
                         <span>-</span>
                         <!-- <li><a class="navbtn blog">Blog</a></li> -->
-                        <li><a class="navbtn contact" (click)="toggleSidebar()" href="#">Contact</a></li>
+                        <li><button class="navbtn contact" (click)="toggleSidebar()">Contact</button></li>
                     </ul>
                     
                 </div>
@@ -85,9 +85,9 @@
         <div class="skills">
             <h1>Experience With</h1>
             <ul>
-                <li><img src="../assets/html.png" alt="HTML" title="HTML"></li>
-                <li><img src="../assets/css.png" alt="CSS" title="CSS"></li>
-                <li><img src="../assets/js.png" alt="Javascript" title="Javascript"></li>
+                <li><img src="../assets/html.png" alt="HTML" title="Semantic HTML"></li>
+                <li><img src="../assets/css.png" alt="CSS" title="Responsive CSS"></li>
+                <li><img src="../assets/js.png" alt="Javascript" title="Vanilla JavaScript"></li>
                 <li><img src="../assets/ts.png" alt="Typescript" title="Typescript"></li>
                 <li><img src="../assets/react.svg" alt="React" title="React"></li>
                 <li><img src="../assets/angular-icon.svg" alt="Angular" title="Angular 7"></li>

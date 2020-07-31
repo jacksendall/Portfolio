@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet, OutletContext } from '@angular/router';
 import { Fader } from './route-animations';
+import axios from "axios";
 import * as $ from "jquery";
 
 
@@ -15,4 +16,9 @@ export class AppComponent {
   toggleSidebar() {
     $('body').toggleClass('menu-active')
   };
+
+  // contactSubmit(event) {
+  //   console.log(event);
+  // };
+
 }
