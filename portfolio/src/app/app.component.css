@@ -1,0 +1,230 @@
+h2 {
+  font-weight: 600;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 38px;
+  text-align: center;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.text-container {
+  margin-top: 28vh;
+  margin-bottom: 50vh;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+
+.navigation .top-bar {
+  width: 100%;
+}
+
+.js {
+  width: 76px;
+  -webkit-filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.3));
+}
+
+.testbtn {
+  padding: 0.7em 1.4em;
+  border-radius: 0.15em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  width: 100px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: #3d3d3d;
+  -webkit-box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.testbtn:hover {
+  background-color: #292929;
+}
+
+.testbuttons {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.actions {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.actions span {
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.actions li {
+  text-align: center;
+}
+
+.navbtn {
+  -webkit-transition: all 340ms;
+  transition: all 340ms;
+  font-size: 1.245rem;
+  font-weight: 800;
+  margin-top: 13px;
+  margin: 10px;
+  color: white;
+  white-space: nowrap;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.navbtn:hover {
+  color: #0f0f0f;
+  text-decoration: none;
+  text-shadow: 0px 1px 2px #969696;
+}
+
+.background {
+  z-index: -10;
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+.background video {
+  z-index: -10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+.section {
+  color: black;
+  background-color: white;
+}
+
+.section h1 {
+  font-weight: 600;
+  font-size: 36px;
+  padding-top: 25px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.section p {
+  padding: 25px 0;
+  font-size: 28px;
+  line-height: 1.25;
+  margin-bottom: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.afterscore:after {
+  content: "";
+  display: block;
+  outline: 1px solid black;
+  margin: 0 10%;
+  margin-top: 65px;
+  background-color: white;
+}
+
+.beforescore:before {
+  content: "";
+  display: block;
+  outline: 1px solid black;
+  margin: 0 10%;
+  margin-bottom: 65px;
+  background-color: white;
+}
+
+.skills h1 {
+  padding-bottom: 25px;
+  margin-top: 0;
+}
+
+.skills ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills ul li {
+  margin: 0 auto;
+}
+
+.skills img {
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  height: 140px;
+  margin: 30px;
+}
+
+.skills img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media (min-width: 1200px) {
+  .skills img {
+    height: 180px;
+  }
+  .skills img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@media (max-width: 991px) {
+  .skills img {
+    height: 180px;
+  }
+  .skills img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+/*# sourceMappingURL=app.component.css.map */

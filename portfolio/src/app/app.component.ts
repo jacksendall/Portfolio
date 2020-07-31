@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import { RouterOutlet, OutletContext } from '@angular/router';
+import { Fader } from './route-animations';
+import * as $ from "jquery";
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +11,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  toggleSidebar() {
+    $('body').toggleClass('menu-active')
+  };
 }
